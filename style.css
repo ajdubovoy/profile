@@ -1,0 +1,142 @@
+body{
+  background-color: #33704B;
+  color: #7d7d7d;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+  text-align: justify;
+}
+
+h1 {
+  font-family: 'Bitter', serif;
+  font-weight: 700;
+  color: #3E885B;
+  font-size: 25px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+h2{
+  font-family: 'Bitter', serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #3A606E;
+  line-height: .5;
+  text-align: center;
+}
+
+h3{
+  font-family: 'Bitter', serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #67597A;
+  line-height: .4;
+  text-align: center;
+}
+
+p {
+  margin: 10px 0;
+}
+
+a {
+  color: #67597A;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: 400;
+  color: #3A606E;
+}
+
+/*Divs*/
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.card {
+  margin: 20px 0;
+  padding: 20px;
+  background: #FFFCF9;
+  box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.07);
+  border-radius: 3px;
+}
+
+/*Images*/
+
+#profile {
+  display: block;
+  width: 200px;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.img-shadow {
+  width: 220px;
+  border-radius: 3px;
+  margin: 0 10px 0 0;
+  box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.05);
+}
+
+/*Widths*/
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+  .img-shadow {
+    width: 200px;
+  }
+
+  #profile {
+    width: 190px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+
+  .img-shadow {
+    width: 150px;
+  }
+
+  #profile {
+    width: 175px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 450px;
+  }
+
+  .img-shadow {
+    width: 100px;
+  }
+
+  #profile {
+    width: 100px;
+  }
+}
+
+/*List*/
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+.div-center {
+  width: 450px;
+  text-align: center;
+  margin: 0 auto;
+}
